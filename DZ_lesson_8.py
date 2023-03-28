@@ -100,6 +100,7 @@ class Triangle:
         else:
             print("Треугольник не существует")
 
+
     def corner(self):
         ab = (math.acos((self.__side_a**2 + self.__side_b**2 - self.__side_c**2) / (2 * self.__side_a * self.__side_b))) * 180 / math.pi
         bc = (math.acos((self.__side_b**2 + self.__side_c**2 - self.__side_a**2) / (2 * self.__side_c * self.__side_b))) * 180 / math.pi
